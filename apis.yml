@@ -7,11 +7,11 @@ position: Consumer
 access: 3rd-Party
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Machine Learning
   - In-Database Analytics
+  - Machine Learning
+  - PostgreSQL
   - SQL
   - Statistics
-  - PostgreSQL
 created: '2026-03-16'
 modified: '2026-03-16'
 url: >-
@@ -24,9 +24,9 @@ apis:
       MADlib provides SQL-callable functions for classification, regression, clustering, dimensionality reduction, graph analytics, time series analysis, and other machine learning algorithms running directly within PostgreSQL or Greenplum.
     humanURL: https://madlib.apache.org/docs/latest/index.html
     tags:
-      - SQL
       - Machine Learning
       - PostgreSQL
+      - SQL
     properties:
       - type: Documentation
         url: https://madlib.apache.org/docs/latest/index.html
