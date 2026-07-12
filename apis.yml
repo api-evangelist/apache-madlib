@@ -38,6 +38,10 @@ apis:
       - type: GitHubRepository
         url: https://github.com/apache/madlib
 common:
+  - type: VulnerabilityDisclosure
+    url: security/apache-madlib-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/apache-madlib-domain-security.yml
   - type: Portal
     url: https://madlib.apache.org/
   - type: GitHubOrganization
