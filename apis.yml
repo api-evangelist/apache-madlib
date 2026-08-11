@@ -50,6 +50,11 @@ apis:
       - type: GitHubRepository
         url: https://github.com/apache/madlib
 common:
+  - type: CodeOfConduct
+    url: https://github.com/apache/.github/blob/main/.github/CODE_OF_CONDUCT.md
+  - type: License
+    name: Apache-2.0
+    url: https://github.com/apache/madlib/blob/madlib2-master/LICENSE
   - type: VulnerabilityDisclosure
     url: security/apache-madlib-vulnerability-disclosure.yml
   - type: DomainSecurity
