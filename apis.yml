@@ -78,6 +78,12 @@ apis:
       - type: GitHubRepository
         url: https://github.com/apache/madlib
 common:
+  - type: Plans
+    url: plans/apache-madlib-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/apache-madlib-rate-limits.yml
+  - type: FinOps
+    url: finops/apache-madlib-finops.yml
   - type: Website
     url: https://www.apache.org/
   - type: CodeOfConduct
