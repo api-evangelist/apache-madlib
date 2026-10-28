@@ -1,4 +1,4 @@
-# Apache MADlib (apache-madlib)
+# Apache MADlib
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,81 +66,102 @@
 
 Apache MADlib is an open-source library for scalable in-database analytics. It provides data-parallel implementations of mathematical, statistical, and machine learning methods for structured and unstructured data, executed within PostgreSQL or Greenplum Database. MADlib enables data scientists to run machine learning algorithms directly in the database using SQL.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/apache-madlib/refs/heads/main/apis.yml)
+**Areas:** In-Database Analytics · Machine Learning · PostgreSQL · SQL · Statistics · Deep Learning
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Apache MADlib on APIs.io
 
-## Tags:
+Everything profiled for Apache MADlib is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/apache-madlib/](https://apis.io/providers/apache-madlib/)** — or go straight to one of the APIs or properties below.
 
- - In-Database Analytics, Machine Learning, PostgreSQL, SQL, Statistics, Deep Learning
+### APIs (1)
 
-## Timestamps
+- [Apache MADlib](https://apis.io/apis/apache-madlib/apache-madlib/) — MADlib provides SQL-callable functions for classification, regression, clustering, dimensionality reduction, graph analytics, time series analysis, deep…
 
-- **Created:** 2026-03-16
-- **Modified:** 2026-04-19
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### Apache MADlib
-MADlib provides SQL-callable functions for classification, regression, clustering, dimensionality reduction, graph analytics, time series analysis, deep learning with Keras/TensorFlow backend, and other machine learning algorithms running directly within PostgreSQL or Greenplum Database with GPU acceleration support.
+#### Security (2)
 
-**Human URL:** [https://madlib.apache.org/docs/latest/index.html](https://madlib.apache.org/docs/latest/index.html)
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags:
+- [Apache Madlib Domain Security](https://apis.io/security/apache-madlib/apache-madlib-domain-security/)
+- [Apache Madlib Vulnerability Disclosure](https://apis.io/security/apache-madlib/apache-madlib-vulnerability-disclosure/)
 
- - Machine Learning, PostgreSQL, SQL, Deep Learning, Statistics
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://madlib.apache.org/docs/latest/index.html)
-- [GettingStarted](https://cwiki.apache.org/confluence/display/MADLIB/Installation+Guide)
-- [GitHubRepository](https://github.com/apache/madlib)
+- [Apache Madlib Plans Pricing](https://apis.io/plans/apache-madlib/apache-madlib-plans-pricing/)
 
-## Common Properties
+#### Rate limits (1)
 
-- [Portal](https://madlib.apache.org/)
-- [GitHubOrganization](https://github.com/apache)
-- [GitHubRepository](https://github.com/apache/madlib)
-- [Wiki](https://cwiki.apache.org/confluence/display/MADLIB/)
-- [IssueTracker](https://issues.apache.org/jira/browse/MADLIB)
-- [TermsOfService](https://www.apache.org/licenses/LICENSE-2.0)
+Published request limits.
 
-## Features
+- [Apache Madlib Rate Limits](https://apis.io/rate-limits/apache-madlib/apache-madlib-rate-limits/)
 
-| Name | Description |
-|------|-------------|
-| In-Database Machine Learning | Run machine learning algorithms directly within PostgreSQL or Greenplum Database using SQL, eliminating data movement overhead. |
-| Classification and Regression | Support for logistic regression, linear regression, naive Bayes, decision trees, random forests, support vector machines, and more. |
-| Clustering Algorithms | K-Means, DBSCAN, and other clustering algorithms for unsupervised learning within the database. |
-| Deep Learning with Keras/TensorFlow | Train and serve deep learning models using Keras and TensorFlow backends with GPU acceleration support. |
-| Graph Analytics | Built-in graph algorithms for network analysis, path finding, and community detection on graph data stored in the database. |
-| Time Series Analysis | ARIMA, SARIMA, and other time series forecasting models running in-database. |
-| Dimensionality Reduction | PCA and SVD implementations for dimensionality reduction and feature extraction. |
-| Model Selection and Hyperparameter Tuning | Cross-validation and hyperparameter optimization frameworks for model selection. |
-| Association Rules | FP-Growth and Apriori algorithms for market basket analysis and association rule mining. |
+#### FinOps (1)
 
-## Use Cases
+What the API costs to run, by operation.
 
-| Name | Description |
-|------|-------------|
-| Predictive Analytics | Build predictive models for churn prediction, fraud detection, and demand forecasting directly on database data. |
-| Recommendation Systems | Implement collaborative filtering and content-based recommendation algorithms using in-database machine learning. |
-| Customer Segmentation | Cluster customers using K-Means and other algorithms to identify segments for targeted marketing. |
-| Anomaly Detection | Detect anomalies in time series and transactional data using statistical models running in-database. |
-| Network Analysis | Analyze social networks, supply chains, and communication graphs using built-in graph algorithms. |
+- [Apache Madlib Finops](https://apis.io/finops/apache-madlib/apache-madlib-finops/)
 
-## Integrations
+## Where to find this API
 
-| Name | Description |
-|------|-------------|
-| PostgreSQL | Primary execution environment supporting PostgreSQL versions 11 through 15. |
-| Greenplum Database | Native support for Greenplum Database GP6 and GP7 for massively parallel processing. |
-| TensorFlow | Deep learning backend integration for training neural networks within the database. |
-| Keras | High-level deep learning API integration for building and training models with GPU acceleration. |
-| XGBoost | Gradient boosting framework integration for high-performance tree-based models. |
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-## Maintainers
+- [Website](https://www.apache.org/)
+- [Terms of service](https://www.apache.org/licenses/LICENSE-2.0)
+- [GitHub](https://github.com/apache)
 
-**FN:** Kin Lane
+## API Evangelist rating
 
-**Email:** info@apievangelist.com
+**Kin Score 16.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 31.0 |
+| Access clarity | 18.4 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 14.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/apache-madlib/](https://apis.io/providers/apache-madlib/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Apache MADlib: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/apache-madlib/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
